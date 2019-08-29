@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <!-- Meta -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Coins TD game created with JavaScript.">
-  <title>Coins Tower Defense</title>
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset = "UTF-8"/>
+    <title>Coins TD</title>
+    <link rel="stylesheet" href="styles/tower-defense.css">
 </head>
 <body>
-  <div class="gui">
-    <div id="stats"></div>
-    <div id="buttons"></div>
-  </div>
-  <canvas id="canvas" width="1000" height="800"></canvas>
-<!-- Scripts -->
-<script src="main.js"></script>
-<script>
- game.init();
-</script>
+	<canvas id='canvas' width='512px' height='448px'></canvas>
+	<div id='money'></div>
+	<div id='points'></div>
+	<div id='towersDestroyed'></div>
+	<script src="main.js"></script>
 </body>
 </html>
